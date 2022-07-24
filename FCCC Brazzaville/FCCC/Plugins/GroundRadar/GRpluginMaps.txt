@@ -2,44 +2,62 @@
 //                 VATSSA | FIR FCCC | GroundRadar | Maps
 // ##################################################################
 
-// Version v0.5
-// Update Date 03/05/2022
-
-// Changelog
-// v0.5 | Category Versioning and Consolidation
+// Version v0.6
+// Update Date 24/07/2022
 
 
 // ##################################################################
-//                 COLORS v0.1
+//                 #1 COLORS v0.2
 // ##################################################################
 
 // ACTIVE
+COLORDEF:DEPLINES:255:253:228
 COLORDEF:BLUE:0:145:255
 COLORDEF:GREEN:0:175:29
 COLORDEF:YELLOW:80:80:0
 COLORDEF:RED:130:0:0
 COLORDEF:CLSD:128:0:0
 COLORDEF:DEV:255:253:228
-COLORDEF:TWY:96:96:96
+COLORDEF:TWY:43:43:43
+// COLORDEF:TWY:96:96:96
 COLORDEF:TWYSAFE:125:0:0
 COLORDEF:BLACK:0:0:0
 COLORDEF:WHITE:125:125:125
 
+// TEST
+// COLORDEF:APRONSURFACE:43:43:43
+COLORDEF:APRONSURFACE:96:96:96
+COLORDEF:BUILDING:70:70:70
+COLORDEF:HARDSURFACE1:25:25:25
+COLORDEF:HARDSURFACE2:35:35:35
+COLORDEF:STOPBAR:255:179:0
+COLORDEF:BACKGROUND:25:25:25
+COLORDEF:CENTERLINES:111:111:60
+
+
 // ##################################################################
-//                 SYMBOLS v0.1
+//                 #2 SYMBOLS v0.2
 // ##################################################################
 
 // VFR FIXES
 SYMBOLDEF:VFR
 ARC:0:0:3:0:360
 
-// APPROACH FIXES
-SYMBOLDEF:APP
+// APPROACH  <--
+SYMBOLDEF:APPL
 POLYGON:0:-5:-5:0:0:5
 
-// DEPARTURE FIXES
-SYMBOLDEF:DEP
+// APPROACH  -->
+SYMBOLDEF:APPR
+POLYGON:0:5:5:0:0:-5
+
+// DEPARTURE <--
+SYMBOLDEF:DEPL
 POLYGON:0:-5:-5:0:0:5
+
+// DEPARTURE -->
+SYMBOLDEF:DEPR
+POLYGON:0:5:5:0:0:-5
 
 // VOR
 SYMBOLDEF:VOR
@@ -79,50 +97,52 @@ LINETO:-2:1
 LINETO:-2:-1
 LINETO:0:-1
 
+
 // ##################################################################
-//                 NAVAIDS v0.0
+//                 #3 APPROACHES v0.1
 // ##################################################################
 
-MAP:NAVAIDS:A
-FOLDER:FGSL
-AIRPORT:FGSL
-ACTIVE:1
+// FCBB | MAYA-MAYA
+
+MAP:APPROACH 05:A
+FOLDER:APPROACHES
+AIRPORT:FCBB
+ACTIVE:RWY:ARR:FCBB05:DEP:FCBB05
+COLOR:RED
+SYMBOL:APPR:S004.19.25.179:E015.09.51.620
+SYMBOL:APPR:TANIS
+SYMBOL:APPR:S004.12.18.208:E015.18.20.278
 COLOR:BLACK
-SYMBOL:VOR:MBO
+TEXT:S004.19.25.179:E015.09.51.620:BB501:0:17
+TEXT:S004.19.25.179:E015.09.51.620:3000:0:-17
+TEXT:TANIS:TANIS:0:17
+TEXT:TANIS:4000:0:-17
+TEXT:S004.12.18.208:E015.18.20.278:BB502:0:17
+STYLE:Dot
+SCTDATA:STAR\FCBB RNP05
+SCTDATA:STAR\FCBB RNP05 DIPVA
+SCTDATA:STAR\FCBB RNP05 NAPUX
 
-MAP:NAVAIDS:A
-FOLDER:FOOG
-AIRPORT:FOOG
-ACTIVE:1
+MAP:APPROACH 23:A
+FOLDER:APPROACHES
+AIRPORT:FCBB
+ACTIVE:RWY:ARR:FCBB23:DEP:FCBB23
+COLOR:RED
+SYMBOL:APPR:S004.10.32.138:E015.20.26.610
+SYMBOL:APPR:GUGUS
+SYMBOL:APPR:AVEXO
+SYMBOL:APPR:S004.17.36.031:E015.12.01.670
 COLOR:BLACK
-SYMBOL:VOR:PG
+TEXT:S004.10.32.138:E015.20.26.610:BB503:0:17
+TEXT:S004.10.32.138:E015.20.26.610:3000:0:-17
+TEXT:GUGUS:GUGUS:0:17
+TEXT:GUGUS:4000:0:-17
+TEXT:S004.17.36.031:E015.12.01.670:BB504:0:17
+STYLE:Dot
+SCTDATA:STAR\FCBB RNP23
+SCTDATA:STAR\FCBB RNP23 BILEV
+SCTDATA:STAR\FCBB RNP23 RASUK
 
-MAP:NAVAIDS:A
-FOLDER:FKKD
-AIRPORT:FKKD
-ACTIVE:1
-COLOR:BLACK
-SYMBOL:VOR:DLA
-
-MAP:NAVAIDS:A
-FOLDER:FPST
-AIRPORT:FPST
-ACTIVE:1
-COLOR:BLACK
-SYMBOL:VOR:STM
-
-
-// ##################################################################
-//                 LABELS v0.0
-// ##################################################################
-
-// ##################################################################
-//                 APPROACHES v0.0
-// ##################################################################
-
-// ##################################################################
-//                 DEPARTURES v0.0
-// ##################################################################
 
 // ##################################################################
 //                 GEO v0.1

@@ -44,6 +44,8 @@ Others
 
 Euroscope Data
 GroundRadar Updates
+- New AD GR ASR Files with Extended Runway Lines and CTR Boundaries
+
 TopSky Updates
 Plugins
 Others
@@ -60,10 +62,27 @@ Others
 
 **FCCC**
 
-Euroscope Data
+Euroscope
+- FCBB APP and AD ASRs reviewed and updated
+
 GroundRadar Updates
+- GRSettings reviewed and updated to the latest block changes
+- GRSettings updated with FCBB AD Data
+- GRMaps updated with FCBB approaches
+
+
 TopSky Updates
+- TopSkyViews reviewed and updated with multiple ADs and TMAs
+- TopSkySTCA reviewed and updated with multiple ADs
+- TopSkySettings reviewed and updated to the latest block changes
+- TopSkyMSAW updated with FCCC Grid MORA and FCCC VOR MSA
+- TopSkyMaps reviewed and updated to the latest block changes
+- TopSkyMaps updated with FCBB arrivals and approaches
+- TopSkyCPDLC reviewed and updated to the latest block changes
+- TopSkyAirspace reviewed and updated to reflect the TA/TL Cheat Sheet
+
 Plugins
+
 Others
 
 
@@ -110,9 +129,20 @@ Others
 **FNAN**
 
 Euroscope Data
+
 GroundRadar Updates
+
 TopSky Updates
+- FNAN Center Added to TopSkyViews
+- Review of TopSkySettings and Consolidation of Common Framework with Previous Settings
+- FNLU and FHSH AD MSA Added to TopSkyMSAW
+- FNAN Grid Mora Added to TopSkyMSAW
+- TopSkyCPDLC Created
+- TopSkyAres Created with Prohibited and Restricted Areas
+- QNHTL Dynamic TL Added to TopSkyAirspace
+
 Plugins
+
 Others
 
 
@@ -144,9 +174,23 @@ Others
 **FVHF**
 
 Euroscope Data
+
 GroundRadar Updates
+- GRSettings reviewed and updated to the latest block changes
+- GRSettings updated with FVFA and FVRG AD Data
+- GRMaps created and updated with FVRG 05 approaches
+
 TopSky Updates
+- TopSkyViews created and updated with multiple TMA and AD Views
+- TopSkySTCA created and updated with FVRG and FVFA Airports
+- TopSkySettings reviewed and updated to the latest block changes
+- TopSkyMSAW created and updated with Grid MORA, FVRG and FVFA VOR MSA
+- TopSkyMaps created and updated with GEO, FIR Data and FVRG 05 Approach
+- TopSkyCPDLC created and updated to the latest block changes
+- TopSkyAirspace reviewed and updated to reflect the TA/TL Cheat Sheet
+
 Plugins
+
 Others
 
 
@@ -217,6 +261,7 @@ Euroscope Data
 GroundRadar Updates
 - Added HKJK to GroundRadar Settings Data
 - Added HKJK ILS 06 to GroundRadar AppPath Settings Data
+- Added HKJK Stand Data to GroundRadar
 
 TopSky Updates
 - Created TopSkyMSAW Data File. 

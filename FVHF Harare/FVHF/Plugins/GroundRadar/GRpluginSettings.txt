@@ -151,7 +151,7 @@ List_Stand_Items=20
 
 
 // ##################################################################
-//                 #7 TIMERS | DEPARTURE v0.1
+//                 #7A TIMERS | DEPARTURE v0.1
 // ##################################################################
 
 List_Outbound_DefPos=1100,150
@@ -160,6 +160,19 @@ List_Outbound_WTC=1
 List_Outbound_WTC_Type=2
 List_Outbound_SID=1
 List_Outbound_ExpiryTime=600
+
+
+// ##################################################################
+//                 #7B TIMERS | TTT v0.1
+// ##################################################################
+
+List_Inbound_DefPos=1100,150
+List_Inbound_DTT=0
+List_Inbound_TYPE=1
+List_Inbound_WTC=1
+List_Inbound_WTC_Type=2
+List_Inbound_ETA=1
+List_Inbound_STAND=1
 
 
 // ##################################################################
@@ -191,21 +204,29 @@ Track_Heading_Line=0
 //                 FV ZIMBABWE
 // ##################################################################
 
-// TO BE CORRECTED
-
-[ICAO]
-Airport_Elevation=184
+[FVFA]
+Airport_Elevation=3500
 Airport_Radius=3
 
-Window_APP=1,1300,350,500,250
-Window_APP_Rotation=90
+Window_APP=1,400,500,600,300
+Window_APP_Rotation=340
 Window_APP_Scale=20
 Window_APP_Extensions=1
-Window_APP_AltFilter=5000
+Window_APP_AltFilter=8500
 
-AppPath=HUEN:HUEN 17:N000.03.20.008:E032.26.10.410:170:L:3780:3.0
+[FVRG]
+Airport_Elevation=4901
+Airport_Radius=3
+
+Window_APP=1,200,350,600,300
+Window_APP_Rotation=45.5
+Window_APP_Scale=20
+Window_APP_Extensions=1
+Window_APP_AltFilter=9901
+
+AppPath=FVRG:FVRG 05:S017.56.48.598:E031.04.37.711:052:L:37479380:3.0
 
 
 // ##################################################################
-//                 END
+//                 THE END
 // ##################################################################

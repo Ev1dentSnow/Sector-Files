@@ -13,7 +13,7 @@ ATIS3:Welcome to Libraville, part of Sub-Saharan Africa (SSA)
 ATIS4:Visit us at vatssa.com
 PROFILE:FCBB_APP:150:5
 ATIS2:$radioname
-ATIS3:Part of Sub-Saharan Africa (SSA)
+ATIS3:Welcome to Brazzaville, part of Sub-Saharan Africa (SSA)
 ATIS4:Visit us at vatssa.com
 PROFILE:FCPP_APP:150:5
 ATIS2:$radioname

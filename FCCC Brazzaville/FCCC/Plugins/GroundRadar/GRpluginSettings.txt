@@ -4,8 +4,8 @@
 
 // GroundRadar Version 1.5 Beta 5
 
-// Version v0.2
-// Update Date 30/06/2022
+// Version v0.3
+// Update Date 24/07/2022
 
 
 // ##################################################################
@@ -151,7 +151,7 @@ List_Stand_Items=20
 
 
 // ##################################################################
-//                 #7 TIMERS | DEPARTURE v0.1
+//                 #7A TIMERS | DEPARTURE v0.1
 // ##################################################################
 
 List_Outbound_DefPos=1100,150
@@ -160,6 +160,19 @@ List_Outbound_WTC=1
 List_Outbound_WTC_Type=2
 List_Outbound_SID=1
 List_Outbound_ExpiryTime=600
+
+
+// ##################################################################
+//                 #7B TIMERS | TTT v0.1
+// ##################################################################
+
+List_Inbound_DefPos=1100,150
+List_Inbound_DTT=0
+List_Inbound_TYPE=1
+List_Inbound_WTC=1
+List_Inbound_WTC_Type=2
+List_Inbound_ETA=1
+List_Inbound_STAND=1
 
 
 // ##################################################################
@@ -188,18 +201,20 @@ Track_Heading_Line=0
 // ##################################################################
 
 // ##################################################################
-//                 FP SAO TOME & PRINCIPE
+//                 FC REPUBLIC OF CONGO
 // ##################################################################
 
-[FPST]
-Airport_Elevation=33
+[FCBB]
+Airport_Elevation=1052
 Airport_Radius=3
 
-Window_APP=1,475,680,600,275
-Window_APP_Rotation=270
-Window_APP_Scale=5
-Window_APP_Extensions=10
-Window_APP_AltFilter=5000
+Window_APP=1,1300,600,600,300
+Window_APP_Rotation=40
+Window_APP_Scale=20
+Window_APP_Extensions=1
+Window_APP_AltFilter=6052
+
+AppPath=FCBB:FCBB 05:S004.15.31.600:E015.14.29.929:051:L:1028:3.0
 
 
 // ##################################################################
@@ -235,5 +250,20 @@ AppPath=FOOG:FOOG 21:S000.42.15.51:E008.45.26.86:181:R:205:3.0
 
 
 // ##################################################################
-//                 END
+//                 FP SAO TOME & PRINCIPE
+// ##################################################################
+
+[FPST]
+Airport_Elevation=33
+Airport_Radius=3
+
+Window_APP=1,475,680,600,275
+Window_APP_Rotation=270
+Window_APP_Scale=5
+Window_APP_Extensions=10
+Window_APP_AltFilter=5000
+
+
+// ##################################################################
+//                 THE END
 // ##################################################################
