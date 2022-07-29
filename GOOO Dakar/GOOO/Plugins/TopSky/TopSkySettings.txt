@@ -2,8 +2,8 @@
 //                 VATSSA | FIR GOOO | TopSky | Settings
 // ##################################################################
 
-// Version v0.2
-// Update Date 05/07/2022
+// Version v0.3
+// Update Date 29/07/2022
 
 
 // ##################################################################
@@ -152,18 +152,25 @@ Color_Weather_Map=207,128,238
 
 
 // ##################################################################
-//                 #3 VISUAL v0.2
+//                 #3 VISUAL v0.3
 // ##################################################################
 
 Window_WxMsgs=1,1460,46,438,200
+Window_WxMsgs_MetarRefreshInterval=600
+Window_WxMsgs_HighlightNew=1
+
 
 Window_QNHTL=1,1728,250
-Window_LFUNCFP=1,1728,420
+Window_QNHTL_HighlightChanges=1
+
+Window_LFUNCFP=0,1728,420
 
 Window_CPDLC_Setting=1,1300,650
 Window_ATCmsg=1,1460,650,438,120
 Window_PrimFreqMsg=1,1460,775,438,120
 Window_CPDLC_Current=1,1460,900
+
+Window_NOTAM=3
 
 
 // ##################################################################
@@ -239,7 +246,7 @@ RDF_Floor=2500
 
 
 // ##################################################################
-//                   MSAW v0.1
+//                   #9 MSAW v0.1
 // ##################################################################
 
 MSAW=1
@@ -254,7 +261,7 @@ MSAW_Buffer_IFR=300
 
 
 // ##################################################################
-//                   NOTAMs v0.1
+//                   #10 NOTAMs v0.1
 // ##################################################################
 
 HTTP_NOTAM_Server=https://www.notams.faa.gov/
@@ -304,7 +311,7 @@ WXR_Brightness=20
 WXR_Gain=85
 WXR_Echo_dBZ_Hi=20
 WXR_Echo_dBZ_Med=15
-WXR_Echo_dBZ_Lo=12 
+WXR_Echo_dBZ_Lo=12
 
 
 // ##################################################################
@@ -350,47 +357,88 @@ System_Coord_Sound_TIP_RJC=1
 
 
 // ##################################################################
-//                 #99 AIRSPACE v0.1
+//                   #15 LABELS v0.1
 // ##################################################################
 
-Airspace_NOTAM_Add=GOBD,GOOY
-Airspace_NOTAM_Remove=GVSC
-Airspace_SIGMET_Areas=GOOO
+Label_SI_ShowFreq=1
+Label_SI_FreqTime=3
+Label_DAPs=1
+Label_Field18_Flag_Items=STS/,newbie,NEWBIE,Newbie,beginner,MSFS,msfs
+Label_Rev_Highlight_Delta_ETN=0
+Label_Alt_Digits=2
 
-[GOBD_]
-Airspace_NOTAM_Add=GOBD
-Airspace_NOTAM_Remove=GVSC
-Airspace_SIGMET_Areas=GOOO
+FlightLeg_Label_DIST=1
+FlightLeg_Label_RFL=1
+FlightLeg_Label_SCFL=1
 
-[GOOY_]
-Airspace_NOTAM_Add=GOOY
-Airspace_NOTAM_Remove=GVSC
-Airspace_SIGMET_Areas=GOOO
 
-[GOSS]
-Airspace_NOTAM_Add=GOSS
-Airspace_NOTAM_Remove=GOOO
-Airspace_SIGMET_Areas=GOOO
+// ##################################################################
+//                 #99 AIRSPACE v0.2
+// ##################################################################
 
-[GBYD]
-Airspace_NOTAM_Add=GBYD
-Airspace_NOTAM_Remove=GOOO
-Airspace_SIGMET_Areas=GOOO
+[GOOO_CTR]
+Setup_LoadView=GOOO CTR
+Setup_Informed=*:*:GOBD
 
-[GQPP]
-Airspace_NOTAM_Add=GQPP
-Airspace_NOTAM_Remove=GO,GB,GV
-Airspace_SIGMET_Areas=GQ
+Airspace_C_Flag=GOBD
 
-[GABS]
-Airspace_NOTAM_Add=GABS
-Airspace_NOTAM_Remove=GO,GB,GV
-Airspace_SIGMET_Areas=GQ
+Airspace_NOTAM_Add=GOOO,DIAP,GABS,GFLL,GLRB,GOBD,GOOY,GQPP,GQNO,GUCY
+Airspace_NOTAM_Remove=FA,FD,FL,FM,FV,FW,FY
 
-[DIAP]
+[DIAP_APP]
+Setup_LoadView=DIAP TMA
+Setup_Informed=*:*:DIAP
+
+Airspace_C_Flag=DIAP
+
 Airspace_NOTAM_Add=DIAP
-Airspace_NOTAM_Remove=GO,GB,GV
+Airspace_NOTAM_Remove=FA,FD,FL,FM,FV,FW,FY
+
 Airspace_SIGMET_Areas=DI
+
+[GABS_APP]
+Setup_LoadView=GABS TMA
+Setup_Informed=*:*:GABS
+
+Airspace_C_Flag=GABS
+
+Airspace_NOTAM_Add=GABS
+Airspace_NOTAM_Remove=FA,FD,FL,FM,FV,FW,FY
+
+Airspace_SIGMET_Areas=GA
+
+[GLRB_APP]
+Setup_LoadView=GLRB TMA
+Setup_Informed=*:*:GLRB
+
+Airspace_C_Flag=GLRB
+
+Airspace_NOTAM_Add=GFLL,GLRB,GUCY
+Airspace_NOTAM_Remove=FA,FD,FL,FM,FV,FW,FY
+
+Airspace_SIGMET_Areas=GL
+
+[GOBD_APP]
+Setup_LoadView=GOBD TMA
+Setup_Informed=*:*:GOBD
+
+Airspace_C_Flag=GOBD
+
+Airspace_NOTAM_Add=GOBD,GOOY
+Airspace_NOTAM_Remove=FA,FD,FL,FM,FV,FW,FY
+
+Airspace_SIGMET_Areas=GO
+
+[GQNO_APP]
+Setup_LoadView=GQNO TMA
+Setup_Informed=*:*:GQNO
+
+Airspace_C_Flag=GQNO
+
+Airspace_NOTAM_Add=GQNO
+Airspace_NOTAM_Remove=FA,FD,FL,FM,FV,FW,FY
+
+Airspace_SIGMET_Areas=GQ
 
 
 // ##################################################################

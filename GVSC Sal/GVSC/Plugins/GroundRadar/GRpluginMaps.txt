@@ -2,44 +2,60 @@
 //                 VATSSA | FIR GVSC | GroundRadar | Maps
 // ##################################################################
 
-// Version v0.6
-// Update Date 05/05/2022
-
-// Changelog
-// v0.5 | Category Versioning and Consolidation
-// v0.6 | Closed Runway Added to GroundRadar Map
+// Version v0.7
+// Update Date 26/07/2022
 
 
 // ##################################################################
-//                 COLORS v0.1
+//                 #1 COLORS v0.2
 // ##################################################################
 
 // ACTIVE
+COLORDEF:DEPLINES:255:253:228
 COLORDEF:BLUE:0:145:255
 COLORDEF:GREEN:0:175:29
 COLORDEF:YELLOW:80:80:0
 COLORDEF:RED:130:0:0
 COLORDEF:CLSD:128:0:0
 COLORDEF:DEV:255:253:228
-COLORDEF:TWY:96:96:96
+COLORDEF:TWY:43:43:43
+// COLORDEF:TWY:96:96:96
 COLORDEF:TWYSAFE:125:0:0
 COLORDEF:BLACK:0:0:0
 COLORDEF:WHITE:125:125:125
 
+// TEST
+// COLORDEF:APRONSURFACE:43:43:43
+COLORDEF:APRONSURFACE:96:96:96
+COLORDEF:BUILDING:70:70:70
+COLORDEF:HARDSURFACE1:25:25:25
+COLORDEF:HARDSURFACE2:35:35:35
+COLORDEF:STOPBAR:255:179:0
+COLORDEF:BACKGROUND:25:25:25
+COLORDEF:CENTERLINES:111:111:60
+
 // ##################################################################
-//                 SYMBOLS v0.1
+//                 #2 SYMBOLS v0.2
 // ##################################################################
 
 // VFR FIXES
 SYMBOLDEF:VFR
 ARC:0:0:3:0:360
 
-// APPROACH FIXES
-SYMBOLDEF:APP
+// APPROACH  <--
+SYMBOLDEF:APPL
+POLYGON:0:-5:-5:0:0:5
+
+// APPROACH  -->
+SYMBOLDEF:APPR
 POLYGON:0:5:5:0:0:-5
 
-// DEPARTURE FIXES
-SYMBOLDEF:DEP
+// DEPARTURE <--
+SYMBOLDEF:DEPL
+POLYGON:0:-5:-5:0:0:5
+
+// DEPARTURE -->
+SYMBOLDEF:DEPR
 POLYGON:0:5:5:0:0:-5
 
 // VOR
@@ -79,6 +95,7 @@ LINETO:-1:1
 LINETO:-2:1
 LINETO:-2:-1
 LINETO:0:-1
+
 
 
 // ##################################################################
@@ -281,8 +298,8 @@ FOLDER:GVNP
 AIRPORT:GVNP
 ACTIVE:RWY:ARR:GVNP03:DEP:GVNP03
 COLOR:BLACK
-SYMBOL:APP:3DME:3DME:0:-17
-SYMBOL:APP:67SNT:67SNT:0:-17
+SYMBOL:APPR:3DME:3DME:0:-17
+SYMBOL:APPR:67SNT:67SNT:0:-17
 
 MAP:APPROACH VORDME03:A
 FOLDER:GVNP
@@ -297,11 +314,12 @@ FOLDER:GVNP
 AIRPORT:GVNP
 ACTIVE:RWY:ARR:GVNP21:DEP:GVNP21
 COLOR:RED
-SYMBOL:APP:DME3
-SYMBOL:APP:SNT70
+SYMBOL:APPL:DME3
+SYMBOL:APPL:SNT70
 COLOR:BLACK
 TEXT:DME3:DME3:0:-17
 TEXT:SNT70:SNT70:0:-17
+SCTDATA:STAR\GVNP VORDME21
 
 MAP:APPROACH 06:A
 FOLDER:GVSV

@@ -201,6 +201,13 @@ GroundRadar Updates
 - Added GroundRadar Stand Data for FWKI
 
 TopSky Updates
+- TopSkyViews reviewed and updated with multiple ADs and TMAs
+- TopSkySettings reviewed and updated to the latest block changes
+- TopSkyMaps reviewed and updated to the latest block changes
+- TopSkyCPDLC reviewed and updated to the latest block changes
+- TopSkyAirspace reviewed and updated to reflect the TA/TL Cheat Sheet
+
+
 Plugins
 Others
 
@@ -242,6 +249,15 @@ Others
 Euroscope Data
 GroundRadar Updates
 TopSky Updates
+- TopSkyViews reviewed and updated with multiple ADs and TMAs
+- TopSkySTCA reviewed and updated with multiple ADs
+- TopSkySettings reviewed and updated to the latest block changes
+- TopSkyMSAW updated with GRID MORA, GABS, GBYD, GFLL, GGOV, GLRB, GQNO, GQPP and GUCY VOR MSAs
+- TopSkyMaps updated with GLRB CTR and TMA Entry Fixes
+- TopSkyMaps updated with DIAP Arrivals
+- TopSkyCPDLC reviewed and updated to the latest block changes
+- TopSkyAirspace reviewed and updated to reflect the TA/TL Cheat Sheet
+
 Plugins
 Others
 
@@ -275,9 +291,21 @@ Others
 **HTDC**
 
 Euroscope Data
+
 GroundRadar Updates
+
 TopSky Updates
+- TopSkyViews reviewed and updated with multiple ADs and TMAs
+- TopSkySettings reviewed and updated to the latest block changes
+- TopSkyMSAW updated with HTDA, HTJK, HTGW, HTMW and HTZA VOR MSAs
+- TopSkyMaps reviewed and updated to the latest block changes
+- TopSkyMaps updated with HTDA arrivals, approaches and Departures
+- TopSkyCPDLC reviewed and updated to the latest block changes
+- TopSkyAirspace reviewed and updated to reflect the TA/TL Cheat Sheet
+- TopSkyAreas reviewed and updated with HT and HR Danger, Restricted and Prohibited Areas
+
 Plugins
+
 Others
 
 

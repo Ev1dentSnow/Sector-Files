@@ -3,12 +3,6 @@ DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
 SECTORFILE:
 SECTORTITLE:
-Geo:GEO:
-Geo:HT Landmark Coast N:
-Geo:HT Landmark Coast S:
-Geo:HT Landmark Lake Tanganyika:
-Geo:HT Landmark Lake Victoria:
-Geo:HT Landmark Lakes:
 Geo:HTDA Groundlayout:
 SHOWC:1
 SHOWSB:1
@@ -24,4 +18,4 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:VATSSA TopSky
 WINDOWAREA:-9.427030:34.315284:-3.565875:45.004803
-PLUGIN:TopSky plugin:ShowMapData:HTDA
+PLUGIN:TopSky plugin:ShowMapData:HTDC,HTDA

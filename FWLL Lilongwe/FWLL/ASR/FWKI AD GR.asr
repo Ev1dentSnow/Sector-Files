@@ -3,23 +3,13 @@ DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
 SECTORFILE:
 SECTORTITLE:
+Geo:FWKI Groundlayout Aprons:
+Geo:FWKI Groundlayout Buildings:
+Geo:FWKI Groundlayout Parking:
+Geo:FWKI Groundlayout Runway:
+Geo:FWKI Groundlayout Stopbars:
+Geo:FWKI Groundlayout Taxiways:
 Geo:GEO:
-Runways:FWKI 14-32:centerline
-Runways:FWKI 14-32:extended centerline 1
-Runways:FWKI 14-32:extended centerline 1 left base
-Runways:FWKI 14-32:extended centerline 1 left ticks
-Runways:FWKI 14-32:extended centerline 1 left vectoring
-Runways:FWKI 14-32:extended centerline 1 right base
-Runways:FWKI 14-32:extended centerline 1 right ticks
-Runways:FWKI 14-32:extended centerline 1 right vectoring
-Runways:FWKI 14-32:extended centerline 2
-Runways:FWKI 14-32:extended centerline 2 left base
-Runways:FWKI 14-32:extended centerline 2 left ticks
-Runways:FWKI 14-32:extended centerline 2 left vectoring
-Runways:FWKI 14-32:extended centerline 2 right base
-Runways:FWKI 14-32:extended centerline 2 right ticks
-Runways:FWKI 14-32:extended centerline 2 right vectoring
-Runways:FWKI 14-32:name
 SHOWC:1
 SHOWSB:1
 BELOW:0

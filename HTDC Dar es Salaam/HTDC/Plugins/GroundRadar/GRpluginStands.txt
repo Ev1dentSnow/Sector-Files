@@ -5,9 +5,6 @@
 // Version v0.1
 // Update Date 03/07/2022
 
-// Changelog
-// v0.1 | Initial create of full file
-
 // Active Airports
 // HT | HTDA
 
@@ -359,3 +356,8 @@ STAND:HTDA:CARGO:S6.52.10.065:E39.12.20.386:80
 USE:P
 WTC:L
 AREA
+
+
+// ##################################################################
+//                 THE END
+// ##################################################################

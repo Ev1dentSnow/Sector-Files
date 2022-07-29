@@ -5,9 +5,6 @@
 // Version v0.1
 // Update Date 24/06/2022
 
-// Changelog
-// v0.1 | FWLL TopSkySTCA Initial Setup
-
 
 // ##################################################################
 //                 FW MALAWI

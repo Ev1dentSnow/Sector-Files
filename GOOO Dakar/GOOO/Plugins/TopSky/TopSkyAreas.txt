@@ -5,12 +5,6 @@
 // Version v0.2
 // Update Date 26/04/2022
 
-// Changelog
-// v0.1 | GOOO Initial Setup
-// v0.2 | GOOO Prohibited Areas
-
-// TO DO | GOOO Restricted Areas
-
 
 // ##################################################################
 //                 CATEGORIES
