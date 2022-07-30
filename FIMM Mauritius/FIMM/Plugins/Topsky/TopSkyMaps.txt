@@ -536,9 +536,43 @@ SCTDATA:STAR\FIMP STAR DUDIP EPREX1
 //                 #1 COLORS v0.3
 // ##################################################################
 
+COLORDEF:WHITE:255:255:255
+COLORDEF:MINT:110:153:110
+COLORDEF:FRA:255:229:204
+
 // ##################################################################
 //                 #2 SYMBOLS v0.3
 // ##################################################################
+
+
+// STAR ENTRIES
+SYMBOLDEF:WPT
+MOVETO:-4:4
+LINETO:5:4
+MOVETO:-3:3
+LINETO:4:3
+MOVETO:-3:2
+LINETO:4:2
+MOVETO:-2:1
+LINETO:3:1
+MOVETO:-2:0
+LINETO:3:0
+MOVETO:-1:-1
+LINETO:2:-1
+MOVETO:-1:-2
+LINETO:2:-2
+MOVETO:0:-3
+LINETO:0:-5
+
+// LABEL
+SYMBOLDEF:LABEL
+MOVETO:10:-6
+LINETO:22:-18
+MOVETO:0:-21
+LINETO:0:-42
+LINETO:54:-42
+LINETO:54:-21
+LINETO:0:-21
 
 // ##################################################################
 //                 #3 SETTINGS v0.3
@@ -589,8 +623,51 @@ SCTDATA:STAR\FIMP STAR DUDIP EPREX1
 // ##################################################################
 
 // ##################################################################
-//                 #15 FRA
+//                 #15 FRA v0.1
 // ##################################################################
+
+MAP:FRA WAYPOINTS
+FOLDER:FRA
+ASRDATA:FIMM
+ACTIVE:1
+ZOOM:1
+ZOOM:-3
+COLOR:MINT
+SYMBOL:WPT:IBMAT
+SYMBOL:WPT:GUGON
+SYMBOL:WPT:XEKOT
+SYMBOL:WPT:RAXES
+SYMBOL:WPT:SUNKI
+SYMBOL:WPT:BIGSA
+SYMBOL:WPT:RERAB
+SYMBOL:WPT:EPMOL
+SYMBOL:WPT:ENTEN
+SYMBOL:WPT:UPNEK
+SYMBOL:WPT:UPTOM
+COLOR:WHITE
+SYMBOL:LABEL:IBMAT:IBMAT:27:-32
+SYMBOL:LABEL:GUGON:GUGON:27:-32
+SYMBOL:LABEL:XEKOT:XEKOT:27:-32
+SYMBOL:LABEL:RAXES:RAXES:27:-32
+SYMBOL:LABEL:SUNKI:SUNKI:27:-32
+SYMBOL:LABEL:BIGSA:BIGSA:27:-32
+SYMBOL:LABEL:RERAB:RERAB:27:-32
+SYMBOL:LABEL:EPMOL:EPMOL:27:-32
+SYMBOL:LABEL:ENTEN:ENTEN:27:-32
+SYMBOL:LABEL:UPNEK:UPNEK:27:-32
+SYMBOL:LABEL:UPTOM:UPTOM:27:-32
+COLOR:FRA
+TEXT:IBMAT:FRA EX:27:-50
+TEXT:GUGON:FRA EX:27:-50
+TEXT:XEKOT:FRA EX:27:-50
+TEXT:RAXES:FRA EX:27:-50
+TEXT:SUNKI:FRA EX:27:-50
+TEXT:BIGSA:FRA EX:27:-50
+TEXT:RERAB:FRA EX:27:-50
+TEXT:EPMOL:FRA I:27:-50
+TEXT:ENTEN:FRA I:27:-50
+TEXT:UPNEK:FRA I:27:-50
+TEXT:UPTOM:FRA I:27:-50
 
 // ##################################################################
 //                 #16 AIRPORT GROUND LAYOUTS

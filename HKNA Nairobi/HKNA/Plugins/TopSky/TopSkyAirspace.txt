@@ -2,8 +2,8 @@
 //                 VATSSA | FIR HKNA | TopSky | Airspace
 // ##################################################################
 
-// Version v0.2
-// Update Date 18/07/2022
+// Version v0.3
+// Update Date 30/07/2022
 
 
 // ##################################################################
@@ -11,8 +11,14 @@
 // ##################################################################
 
 // TL Transition Level
+QNHTL:HKEL:110
 QNHTL:HKJK:100
+QNHTL:HKKI:80
+QNHTL:HKML:30
 QNHTL:HKMO:30
+QNHTL:HKNW:100
+QNHTL:HKWJ:50
+
 
 // LEVELS
 LEVELS:HKJK:71,79,91

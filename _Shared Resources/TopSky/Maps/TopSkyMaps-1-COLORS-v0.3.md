@@ -1,5 +1,5 @@
 // ##################################################################
-//                 #1 COLORS v0.3
+//                 #1 COLORS v0.4
 // ##################################################################
 
 // ACTIVE
@@ -10,7 +10,7 @@ COLORDEF:WHITE:255:255:255
 COLORDEF:MINT:110:153:110
 COLORDEF:LIGHTBLUE:0:175:157
 COLORDEF:GREY:134:134:135
-COLORDEF:FRA:115:0:0
+COLORDEF:FRA:255:229:204
 COLORDEF:MSA:128:0:0
 COLORDEF:AIRSPACE:200:145:200
 COLORDEF:RMK:200:200:200

@@ -2,12 +2,8 @@
 //                 VATSSA | FIR GVSC | TopSky | Airspace
 // ##################################################################
 
-// Version v0.2
-// Update Date 22/04/2022
-
-// Changelog
-// v0.1 | GVSC Initial Setup
-// v0.2 | GVSC QNH TL per vATIS Configuration
+// Version v0.3
+// Update Date 30/07/2022
 
 
 // ##################################################################
@@ -15,7 +11,9 @@
 // ##################################################################
 
 // TL as defined by ATC (Default)
-QNHTL:GVAC,GVBA,GVNP,GVSV:100,979,90,1013,80,1046,70,1099,70
+QNHTL:GVAC,GVBA,GVNP,GVSV:90,995,85,1013,80,1031,75,1049,70,1060,70
+
+
 
 // LEVELS
 LEVELS:GVSC:15,17,18,21,25,35

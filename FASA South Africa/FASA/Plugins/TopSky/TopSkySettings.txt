@@ -173,7 +173,8 @@ System_UseAcceptedCoordColor=1
 System_UseRwyLockedColor=1
 System_UseSidStarAllocationColor=1
 System_UseSidStarNoAllocationColor=1
-Color_Sid_Star_Allocation=191,185,92
+//Color_Sid_Star_Allocation=191,185,92
+Color_Sid_Star_Allocation=15,185,15
 Color_Rwy_Locked=191,185,92
 
 
