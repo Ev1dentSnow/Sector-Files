@@ -1,8 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:
+SECTORFILE:E:\Sector-Files\FASA South Africa\FASA-Package_20220714145234-220701-0001.sct
+SECTORTITLE:FASA-Package_20220714145234-220701-0001.sct
 Airports:FABB:name
 Airports:FABB:symbol
 Airports:FAGC:name
@@ -194,8 +194,8 @@ Free Text:FAOR VRP\Sandton City:freetext
 Free Text:FAOR VRP\Shell Ultracity:freetext
 Free Text:FAOR VRP\Silver Ball:freetext
 Geo:FAGM Groundlayout:
-Geo:FAOR Groundlayout Ground Markers (New):
 Geo:GEO:
+Regions:FAOR Ground Layout:polygon
 Runways:FAOR 03L-21R:extended centerline 1
 Runways:FAOR 03L-21R:extended centerline 1 left base
 Runways:FAOR 03L-21R:extended centerline 1 left ticks
@@ -236,8 +236,8 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:75.00000
-TAGFAMILY:VATSSA TopSky
-WINDOWAREA:-26.327076:27.738088:-25.902986:28.609277
+TAGFAMILY:Matias (built in)
+WINDOWAREA:-26.163745:28.181854:-26.106824:28.305606
 PLUGIN:Ground Radar plugin:AirportElevation:5580
 PLUGIN:Ground Radar plugin:AirportRadius:5
 PLUGIN:Ground Radar plugin:GroundMode:FAOR
