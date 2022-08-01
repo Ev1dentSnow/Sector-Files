@@ -63,24 +63,25 @@ LastSession	rating	0
 LastSession	tovatsim	1
 LastSession	atis2	Select an appropriate Callsign from the dropdown before connecting.
 LastSession	atis3	*** DO NOT CONNECT WITH THIS SELECTION!***
-Sounds	Sound1	\HKNA\Sounds\atc_message.wav
-Sounds	Sound2	\HKNA\Sounds\broadcast_message.wav
-Sounds	Sound3	\HKNA\Sounds\conflict_alert.wav
-Sounds	Sound4	\HKNA\Sounds\connected.wav
-Sounds	Sound5	\HKNA\Sounds\disconnected.wav
-Sounds	Sound6	\HKNA\Sounds\handoff_accept.wav
-Sounds	Sound7	\HKNA\Sounds\handoff_refused.wav
-Sounds	Sound8	\HKNA\Sounds\handoff_request.wav
-Sounds	Sound9	\HKNA\Sounds\landline_request.wav
-Sounds	Sound10	\HKNA\Sounds\new_atis.wav
-Sounds	Sound11	\HKNA\Sounds\ongoing_accepted.wav
-Sounds	Sound12	\HKNA\Sounds\ongoing_manual.wav
+Sounds	Sound1	\HKNA\Sounds\handoff_accept.wav
+Sounds	Sound2	\HKNA\Sounds\conflict_alert.wav
+Sounds	Sound3	\HKNA\Sounds\radio_message.wav
+Sounds	Sound4	\HKNA\Sounds\private_message.wav
+Sounds	Sound5	\HKNA\Sounds\atc_message.wav
+Sounds	Sound6	\HKNA\Sounds\broadcast_message.wav
+Sounds	Sound7	\HKNA\Sounds\landline_request.wav
+Sounds	Sound8	\HKNA\Sounds\supervisor_message.wav
+Sounds	Sound9	\HKNA\Sounds\connected.wav
+Sounds	Sound10	\HKNA\Sounds\disconnected.wav
+Sounds	Sound11	\HKNA\Sounds\ongoing_request.wav
+Sounds	Sound12	\HKNA\Sounds\ongoing_accepted.wav
 Sounds	Sound13	\HKNA\Sounds\ongoing_refused.wav
-Sounds	Sound14	\HKNA\Sounds\ongoing_request.wav
-Sounds	Sound15	\HKNA\Sounds\pointout.wav
-Sounds	Sound16	\HKNA\Sounds\private_message.wav
-Sounds	Sound17	\HKNA\Sounds\radio_message.wav
-Sounds	Sound18	\HKNA\Sounds\reminder.wav
+Sounds	Sound14	\HKNA\Sounds\ongoing_manual.wav
+Sounds	Sound15	\HKNA\Sounds\new_atis.wav
+Sounds	Sound16	\HKNA\Sounds\handoff_refused.wav
+Sounds	Sound17	\HKNA\Sounds\pointout.wav
+Sounds	Sound18	\HKNA\Sounds\startup.wav
 Sounds	Sound19	\HKNA\Sounds\startup.wav
 Sounds	Sound20	\HKNA\Sounds\supervisor_message.wav
+Sounds	Sound0	\HKNA\Sounds\handoff_request.wav
 
