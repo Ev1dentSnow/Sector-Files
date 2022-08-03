@@ -3,17 +3,15 @@
 // ##################################################################
 
 // Version v0.1
-// Update Date 19/05/2022
-
-// Changelog
-// v0.1 | HUEC GroundRadar Maps Initial Setup
+// Update Date 01/08/2022
 
 
 // ##################################################################
-//                 #1 COLORS v0.1
+//                 #1 COLORS v0.2
 // ##################################################################
 
 // ACTIVE
+COLORDEF:DEPLINES:255:253:228
 COLORDEF:BLUE:0:145:255
 COLORDEF:GREEN:0:175:29
 COLORDEF:YELLOW:80:80:0

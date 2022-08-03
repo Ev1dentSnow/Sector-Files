@@ -10,16 +10,12 @@
 //                 FP SAO TOME & PRINCIPE
 // ##################################################################
 
-//HKJK DEPs
-RANGE:0500:0577
-ADEP:HKJK
+// DOMESTIC I
+RANGE:0000:9999
+PRIORITY:+3
 IFR
-
-//HKJK DEPs
-RANGE:1300:1377
-ADEP:HKJK
-IFR
-VFR
+ADEP:HU
+ADES:HU
 
 
 // ##################################################################

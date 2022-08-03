@@ -2,24 +2,34 @@
 //                 VATSSA | FIR HUEC | TopSky | SSRCodes
 // ##################################################################
 
-// Version v0.1
-// Update Date 30/07/2022
+// Version v0.2
+// Update Date 01/08/2022
 
 
 // ##################################################################
 //                 HU UGANDA
 // ##################################################################
 
-//HKJK DEPs
-RANGE:0500:0577
-ADEP:HKJK
+// DOMESTIC I
+RANGE:0600:0677
+PRIORITY:+3
 IFR
+ADEP:HU
+ADES:HU
 
-//HKJK DEPs
-RANGE:1300:1377
-ADEP:HKJK
+// DOMESTIC II
+RANGE:5200:5277
+PRIORITY:+3
 IFR
-VFR
+ADEP:HU
+ADES:HU
+
+// INTERNATIONAL
+RANGE:2300:2377
+PRIORITY:+3
+IFR
+ADEP:HU
+NOTADES:HU
 
 
 // ##################################################################
