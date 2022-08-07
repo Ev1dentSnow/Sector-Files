@@ -10,7 +10,8 @@
 //                 HU UGANDA
 // ##################################################################
 
-// HUEN
+// HUEN | ENTEBBE INTL
+
 FINALAPP:HUEN:17
 FINALAPP:HUEN:35
 

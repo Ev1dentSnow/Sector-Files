@@ -532,6 +532,7 @@ SCTDATA:STAR\FIMP STAR IXABI EPREX1
 SCTDATA:STAR\FIMP STAR GUTKO EPREX1
 SCTDATA:STAR\FIMP STAR DUDIP EPREX1
 
+
 // ##################################################################
 //                 #1 COLORS v0.3
 // ##################################################################
@@ -539,6 +540,7 @@ SCTDATA:STAR\FIMP STAR DUDIP EPREX1
 COLORDEF:WHITE:255:255:255
 COLORDEF:MINT:110:153:110
 COLORDEF:FRA:255:229:204
+
 
 // ##################################################################
 //                 #2 SYMBOLS v0.3

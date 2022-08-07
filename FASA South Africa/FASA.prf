@@ -32,3 +32,24 @@ ASRFastKeys	2	\FASA\ASR\FAOR_TWR GR.asr
 ASRFastKeys	3	\FASA\ASR\FACT_TWR GR.asr
 ASRFastKeys	4	\FASA\ASR\FAPE_TWR GR.asr
 Settings	sector	\FASA-Package_20220714145234-220701-0001.sct
+Sounds	Sound1	\FASA\Sounds\handoff_accept.wav
+Sounds	Sound2	\FASA\Sounds\conflict_alert.wav
+Sounds	Sound3	\FASA\Sounds\radio_message.wav
+Sounds	Sound4	\FASA\Sounds\private_message.wav
+Sounds	Sound5	\FASA\Sounds\atc_message.wav
+Sounds	Sound6	\FASA\Sounds\broadcast_message.wav
+Sounds	Sound7	\FASA\Sounds\landline_request.wav
+Sounds	Sound8	\FASA\Sounds\supervisor_message.wav
+Sounds	Sound9	\FASA\Sounds\connected.wav
+Sounds	Sound10	\FASA\Sounds\disconnected.wav
+Sounds	Sound11	\FASA\Sounds\ongoing_request.wav
+Sounds	Sound12	\FASA\Sounds\ongoing_accepted.wav
+Sounds	Sound13	\FASA\Sounds\ongoing_refused.wav
+Sounds	Sound14	\FASA\Sounds\ongoing_manual.wav
+Sounds	Sound15	\FASA\Sounds\new_atis.wav
+Sounds	Sound16	\FASA\Sounds\handoff_refused.wav
+Sounds	Sound17	\FASA\Sounds\pointout.wav
+Sounds	Sound18	\FASA\Sounds\startup.wav
+Sounds	Sound19	\FASA\Sounds\startup.wav
+Sounds	Sound20	\FASA\Sounds\supervisor_message.wav
+Sounds	Sound0	\FASA\Sounds\handoff_request.wav

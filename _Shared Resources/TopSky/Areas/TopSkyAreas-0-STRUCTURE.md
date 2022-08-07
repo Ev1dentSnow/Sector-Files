@@ -31,7 +31,7 @@ N013.24.45.770:E006.35.24.890
 //                 #2 PROHIBITED v0.1
 // ##################################################################
 
-// DN Prohibited area P1 Lagos/Murtala Muhammed - GND/A050 
+// DN Prohibited Area P1 Lagos/Murtala Muhammed - GND/A050 
 AREA:T:DN P1
 CATEGORY:PROHIBITED
 ACTIVE:1
@@ -45,7 +45,7 @@ N006.27.03.960 E003.17.57.000
 //                 #3 RESTRICTED v0.1
 // ##################################################################
 
-// DN Restricted area R1 - GND/FL100    
+// DN Restricted Area R1 - GND/FL100    
 AREA:T:DN R1
 CATEGORY:RESTRICTED
 ACTIVE:1
@@ -57,7 +57,7 @@ N006.30.01.879 E003.23.57.000
 //                 #4 DANGER v0.1
 // ##################################################################
 
-// DN Danger area Air Force Training Area 1 
+// DN Danger Area Air Force Training Area 1 
 AREA:T:DN AFTA 1
 CATEGORY:DANGER
 ACTIVE:1
